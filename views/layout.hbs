@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+         content="width=divice-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='../node_modules/bootstrap/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+  </head>
+  <body>
+    {{>header}}
+    {{{body}}}
+   {{!-- jQuery first, then popper.js, then bootstrap JS --}}
+   <script src="../node_modules/jquery/jquery.min.js"></script>
+   <script src="../node_modules/popper.js/popper.min.js"></script>
+   <script src="../node_modules/bootstrap/js/bootstrap.min.js"></script>
+   <script src="../node_modules/feather-icons/feather.js"></script>
+   <script>feather.replace();</script>
+  </body>
+</html>
