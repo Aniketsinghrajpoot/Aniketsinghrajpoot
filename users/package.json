@@ -1,0 +1,23 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user-server.mjs",
+  "scripts": {
+    "start": "cross-env DEBUG=users:* PORT=5858 SEQUELIZE_CONNECT=sequelize-sqlite.yaml node ./user-server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "commander": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "debug": "4.1.x",
+    "fs-extra": "^9.1.0",
+    "js-yaml": "3.14.x",
+    "restify": "8.5.x",
+    "restify-clients": "2.6.x",
+    "sequelize": "^6.22.0",
+    "sqlite3": "^5.1.1"
+  }
+}
